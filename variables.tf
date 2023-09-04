@@ -9,3 +9,7 @@ variable "vnet_name" {
 variable "subnet_name" {
   description = "Nom du sous-réseau Azure"
 }
+
+variable "location" {
+  description = "Nom du sous-réseau Azure"
+}
