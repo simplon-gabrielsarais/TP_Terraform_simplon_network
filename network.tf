@@ -1,17 +1,5 @@
 # network.tf
 
-variable "resource_group_name" {
-  description = "Nom du groupe de ressources Azure"
-}
-
-variable "vnet_name" {
-  description = "Nom du réseau virtuel Azure"
-}
-
-variable "subnet_name" {
-  description = "Nom du sous-réseau Azure"
-}
-
 resource "azurerm_resource_group" "example" {
   name     = var.resource_group_name
   location = "East US"
